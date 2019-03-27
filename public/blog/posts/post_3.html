@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
         
-    <!-- Head -->
+    <!-- Head-Start -->
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131539819-1"></script>
@@ -9,6 +9,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
+
         gtag('config', 'UA-131539819-1');
         </script>
         <!-- Required meta tags -->
@@ -21,15 +22,16 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <!-- Own CSS -->
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="posts.css">
         <!-- TITLE -->
-        <title>VANUSS - Home Page</title>
+        <title>Top 10 Links-Monthly Post</title>
         <!-- Favicon  -->
-        <link rel="shortcut icon" type="image/png" href="images/icon/favicon-violet.png"/>
-    </head>
-    <!-- Body -->
+        <link rel="shortcut icon" type="image/png" href="../../images/icon/favicon-violet.png"/>
+    </head> 
+    <!-- Head-End -->
+    <!-- Body-Start -->
     <body>
-
+        <!-- Logo Content Start -->
         <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
                 <symbol id="icon-svg-dark" viewBox="0 0 32 32">
@@ -40,11 +42,12 @@
                 </symbol>
             </defs>
         </svg>
-        <!-- NavBar -->
+        <!-- Logo Content End -->
+        <!-- NavBar-Start -->
         <nav class="navbar navbar-expand-md navbar-dark sticky-top" id="navbarShadow">
             <!-- NavBar Brand Name -->
-            <a class="navbar-brand  font-weight-bolder pl-5" id="brandName" href="index.html">
-                <svg class="icon icon-svg-dark"><use xlink:href="#icon-svg-dark"></use></svg>
+            <a class="navbar-brand  font-weight-bolder pl-5" id="brandName" href="../../index.html">
+                <svg class="icon icon-svg-dark" id="brandIcon"><use xlink:href="#icon-svg-dark"></use></svg>
                 VANUSS
             </a>
             <!-- NavBar Toggler Icon -->
@@ -56,125 +59,151 @@
             <!-- NavBar Items -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" >
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold ml-5 ml-md-0" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5 ml-md-0" id="navItemHover" href="../../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto" >
                     <li class="nav-item">
-                        <a class="nav-link pl-5" id="navItemHover" href="changelog/changelog.html">Changelogs</a>
+                        <a class="nav-link pr-5 pl-5" id="navItemHover" href="../../changelog/changelog.html">Changelogs</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold ml-5 ml-md-0" href="../../blog/blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pl-5" id="navItemHover" href="blog/blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link pr-5 pl-5 mr-5" id="navItemHover" href="aboutme/aboutme.html">About Me</a>
+                        <a class="nav-link pr-5 pl-5 mr-5" id="navItemHover" href="../../aboutme/aboutme.html">About Me</a>
                     </li>
                 </ul>
             </div>
-        </nav>
-        <!-- Jumbotron Homepage -->
-        <div class="jumbotron jumbotron-fluid m-0"> 
-            <div class="container font">
-                <svg class="icon icon-svg-dark" id="jumbotronIcon"><use xlink:href="#icon-svg-dark"></use></svg>
-                <h1 class="display-3" id="jumbotronBrandName">VANUSS</h1>
-                    <p class="lead" id="jumbotronLead">A Personal Blog to Share the Interest with Like-Minded Individuals</p>
-                    <p class="lead" id="jumbotronLead">By Navin</p>
-                <a class="btn" id="jumbotronBtn" href="aboutme/aboutme.html">About Me</a>
+        </nav>  
+        <!-- NavBar-End -->
+        <!-- Post-Start -->
+        <div class="container" id="postContent">
+            <h2 id="postMainHeading" class="font-weight-bolder text-center">Top 10 Links-Monthly Post 3</h2>
+            <p id="postMainHeadingFooter" class="text-center">By NavinNavi - Posted on Mar 2019</p>
+            <img src="../../images/images/10_Cool_Things_2.jpg" class="img-fluid  rounded mx-auto d-block my-4" alt="Responsive image">
+            <p>Welcome back to my 3rd post in Top 10 Useful Links series. This month after much difficulty I decided this 10 links amongst a lots of useful sites I have read. This time I have followed the same format, but with a slight change. Web Development Section comes before the Web Security Section because of my recent interest in this field.</p>
+            <p>Okay!!!, lets get straight into the main stuff.</p>
+            <h3 id="postHeading" class="pt-5 pb-5 font-weight-bolder text-center">Web Development</h3>
+            <div class="pb-5">
+                <!-- 1 -->
+                <h4 id="postHeading" class="font-weight-bold">1. Medium Post</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd">"Learning to Code: When It Gets Dark"</a></p>
+                </blockquote>
+                <p>As said in my last <a id="allLinks" href="https://vanuss.in/blog/posts/post_2.html">post</a> about “<a id="allLinks" href="https://www.100daysofcode.com/">100DayOfCode</a>”, this is a continuation to that. Reading this post, you will learn a way to boost your confidence, steps to stop procrastinating things and to overcome your own resistance. Beginning to code and making it as a practice? you will often face a lot of resistance. Because you are developing a new habit. In my personal experience, I have been coding daily for at least 1hr for the past 75 days (the time I am drafting this post) overcoming a lot of resistance and being less prone to procrastinating important things.</p>
+                <!-- 1 -->
             </div>
-        </div>
-
-        <p class="h4 m-5 text-center" id="latestPosts">Latest Posts</p>
-        <!-- LIST OF BLOG POST AS CARDS-->
-        <div class="container-fluid my-5">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-90">
-                        <a href="blog/posts/post_3.html">
-                            <div class="card-body">
-                                <img class="card-img-top" id="cardImg" src="images/images/10_Cool_Things_2.jpg" alt="">
-                                <h5 class="card-title" id="cardTitle">Top 10 Links-Monthly Post 3</h5>
-                                <p class="card-text">List of 10 cool things that I read across the internet</p>
-                            </div>
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Mar 2019</small>
-                            </div> 
-                        </a>             
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-90">
-                        <a href="blog/posts/post_2.html">
-                            <div class="card-body">
-                                <img class="card-img-top" id="cardImg" src="images/images/10_Cool_Things_2.jpg" alt="">
-                                <h5 class="card-title" id="cardTitle">Top 10 Links-Monthly Post 2</h5>
-                                <p class="card-text">List of 10 cool things that I read across the internet</p>
-                            </div>
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Feb 2019</small>
-                            </div> 
-                        </a>             
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-90">
-                        <a href="blog/posts/post_1.html">
-                            <div class="card-body">
-                                <img class="card-img-top" id="cardImg" src="images/images/10_Cool_Things_1.jpg" alt="">
-                                <h5 class="card-title" id="cardTitle">Top 10 Links-Monthly Post 1</h5>
-                                <p class="card-text" >List of 10 cool things that I read across the internet</p>
-                            </div>
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Jan 2019</small>
-                            </div> 
-                        </a>             
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-90">
-                        <a href="blog/posts/git101.html"> 
-                            <div class="card-body">
-                                <img  class="card-img-top" id="cardImg" src="images/images/git&github.png" alt="Image of Git">
-                                <h5 class="card-title" id="cardTitle" >What is Git and it's effectiveness</h5>
-                                <p class="card-text" >This post can quickly walk you through the git basics and its commands if you are new or coming back after a break.</p>
-                            </div> 
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Dec 2018</small>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto">
-                        <!-- <a href="#">  -->
-                            <div class="card-body">
-                                <img  class="card-img-top" id="cardImg" src="images/images/underconstruction.jpg" alt="">
-                                <h5 class="card-title" id="cardTitle" >Coming Soon</h5>
-                            </div> 
-                        <!-- </a> -->
-                    </div>
-                </div>
+            <div class="pb-5">
+                <!-- 2 -->
+                <h4 id="postHeading" class="font-weight-bold">2. Useful Tip</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://twitter.com/DanEnglishby/status/1097888816113872896">“CSS Margin Shortcut”</a></p>
+                </blockquote>
+                <p>A simple tip to apply HTML margin to an element which you might not be aware.</p>
+                <!-- 2 -->
             </div>
+            <div class="pb-5">
+                <!-- 3 -->
+                <h4 id="postHeading" class="font-weight-bold">3. YouTube Video</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://www.youtube.com/watch?v=0JSHubLg7NE">“FreeCodeCamp vs CodeCademy | Which One is Better? Which One Should You Learn With?”</a></p>
+                </blockquote>
+                <p>Get into this discussion of a Dev who decides a better material by going through the pro’s and con’s after going through both the resources. My vote goes to <a id="allLinks" href="https://www.freecodecamp.org/">FreeCodeCamp</a> as there is a lot of fuzz going around the Coder Community.</p>
+                <!-- 3 -->
+            </div>
+            <div class="pb-5">
+                <!-- 4 -->
+                <h4 id="postHeading" class="font-weight-bold">4. Best Post</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://medium.freecodecamp.org/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645">"https://medium.freecodecamp.org/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645"</a></p>
+                </blockquote>
+                <p>This is quite a big post but this a try. You will learn a lot of useful techniques to get a developer Job.</p>
+                <!-- 4 -->
+            </div>
+            <h3 id="postHeading" class="pb-5 font-weight-bolder text-center">Web Security</h3>
+            <div class="pb-5">
+                <!-- 5 -->
+                <h4 id="postHeading" class="font-weight-bold">5. Largest Breach</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://latesthackingnews.com/2019/02/14/credential-stuffing-scammer-lists-620-million-records-on-the-dark-web/">“Credential-stuffing-scammer-lists-620-million-records-on-the-dark-web ”</a></p>
+                </blockquote>
+                <p>This month we saw millions of PII records on the Dark Web sold in two batches within two weeks. Dream Market is the one selling this information with the support form a hacker known by Gnosticplayer. He seems to be the one behind these breaches. His aim was to hack for his living until 1 billion records where hacked. Lot of companies fell victim into this breach including Dubsmash and MyFitnessPal.</p>
+                <!-- 5 -->
+            </div>
+            <div class="pb-5">
+                <!-- 6 -->
+                <h4 id="postHeading" class="font-weight-bold">6. Beginner’s Explanation</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://whatis.techtarget.com/definition/proxy-server">“Proxy Server”</a></p>
+                </blockquote>
+                <p>Get to know about the proxy server and its types through this post with video explanations. </p>
+                <!-- 6 -->
+            </div>
+            <div class="pb-5">
+                <!-- 7 -->
+                <h4 id="postHeading" class="font-weight-bold">7. Beginner’s Explanation</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="http://www.unixwiz.net/techtips/iguide-crypto-hashes.html">"“Guide to Crypto-Hashes”"</a></p>
+                </blockquote>
+                <p>I came across this post, when I was searching for some resources to learn about Cryptography. With this post, you will be able to clearly understand how to use hashing in obfuscating strings or passwords and different methods use for hashing.</p>
+                <!-- 7 -->
+            </div>
+            <div class="pb-5">
+                <!-- 8 -->
+                <h4 id="postHeading" class="font-weight-bold">8. Vulnerability News </h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://latesthackingnews.com/2019/02/23/an-old-winrar-vulnerability-left-users-at-risk-for-two-decades/">“Two-decade old WinRAR Vulnerability”</a></p>
+                </blockquote>
+                <p>Discovery of two-decade old vulnerability in WinRAR came to light after a report from a security researcher. He exploited the vulnerability in a DLL (Dynamic Link Library) which was developed in 2016 to support ACE format. But a patch has been released promptly by ending the support to ACE format.</p>
+                <!-- 8 -->
+            </div>
+            <h3 id="postHeading" class="pb-5 font-weight-bolder text-center">General</h3>
+            <div class="pb-5">
+                <!-- 9 -->
+                <h4 id="postHeading" class="font-weight-bold">9. Motivational Post</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://zenhabits.net/mfchallenge/">“The Mindful Fitness Challenge”</a></p>
+                </blockquote>
+                <p>Take a ride into this post, I bet you will get some ideas to better manage your life.</p>
+                <!-- 9 -->
+            </div>
+            <div class="pb-5">
+                <!-- 10 -->
+                <h4 id="postHeading" class="font-weight-bold">10. Windows Feature Update</h4>
+                <blockquote >
+                    <p id="postQuotedLinks"><a href="https://www.windowscentral.com/hands-windows-10-april-2019-update-video">“Windows 10 April 2019 Update”</a></p>
+                </blockquote>
+                <p>Get a sneak peek into all the upcoming biggest new features and changes which you can expect to see when it begins rolling out this spring. My most anticipated “SandBox” feature will be out with this update.</p>
+                <!-- 10 -->
+            </div>
+            <p class="my-5">As always, if you like this post kindly leave your comments and share it with your friends.</p>
+            <p class="my-5">Next month post will be about "How to automate git and github integration with your projects".</p>
+            <p class="my-5">NOTE: My site has been moved from <a id="allLinks" href="https://vanuss.in">vanuss.in</a> to <a id="allLinks" href="https://vanuss.org/">vanuss.org</a>. Also working on a new UI for the next month release.</p>
+            
+            
         </div>
-        <!-- Footer -->
+        <!-- Footer-Start -->
         <div class="mini-footer">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <div class="copyright-text">
                     <p>© 2019
-                      <a href="index.html">VANUSS</a>. All rights reserved. Theme Designed by
-                      <a href="aboutme/aboutme.html">Navin</a>
+                      <a href="../../index.html">VANUSS</a>. All rights reserved. Theme Designed by
+                      <a href="../../aboutme/aboutme.html">Navin</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
         </div>
+        <!-- Footer-End -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Body-End -->
     </body>
 </html>
