@@ -1,3 +1,191 @@
-<%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!doctype html>
+<html lang="en">
+        
+    <!-- Head -->
+    <head><meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131539819-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131539819-1');
+        </script>
+        <!-- Required meta tags -->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!-- GOOGLE FONT -->
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <!-- Own CSS -->
+        <style>
+            /* Extra small (xs) devices (portrait phones, less than 576px)
+            No media query since this is the default in Bootstrap */
+            /* 404 */
+            .error-number {
+                color: white;
+                display: block;
+                font-size: 5rem;
+                font-weight: 700;
+                max-height: 240px;
+                margin: 3rem 0 0 ;
+            }
+
+            .error-description {
+                color: white;
+                font-size: 1.1rem;
+            }
+
+            .error-goback-text {
+                color: white;
+                font-size: 1.rem;
+
+            }
+
+            .btn{
+                color: white;
+                background-color: #af009f;
+            }
+
+            .btn:hover{
+                color: black;
+            }
+            
+            .error-stack {
+                color: white;
+            }
+                
+            /* 404 */
+
+            /* Small (sm) devices (landscape phones, 576px and up) */
+            @media (min-width: 576px) {
+                /* 404 */
+                .error-number {
+                    font-size: 8rem;
+                    font-weight: 700;
+                    max-height: 240px;
+                    margin: 3rem 0 0 ;
+                }
+
+                .error-description {
+                    font-size: 1.3rem;
+                    letter-spacing: 1px;
+                }
+
+                .error-goback-text {
+                    font-size: 1.1rem;
+                    letter-spacing: 1px;
+                }
+
+                .btn {
+                    font-size: 1.2rem;
+                }
+                /* 404 */
+            }
+
+            /* Medium (md) devices (tablets, 768px and up) */
+            @media (min-width: 768px) {
+
+            /* Original CSS For All Pages Default*/
+            body {
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+            }
+            /* Original CSS For All Pages Default*/
+
+                /* 404 */
+                .error-number {
+                    font-size: 10rem;
+                    font-weight: 700;
+                    max-height: 240px;
+                    margin: 4rem 0 0 ;
+                }
+
+                .error-description {
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                }
+
+                .error-goback-text {
+                    font-size: 1.2rem;
+                    letter-spacing: 1px;
+                }
+                /* 404 */
+            }
+
+            /* Large (lg) devices (desktops, 992px and up) */
+            @media (min-width: 992px) {
+            }
+
+            /* Extra (xl) large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {
+
+            }
+
+            /* Original CSS For All Pages Default*/
+            body {
+                font-family: 'Karla', sans-serif;
+                background-color: black;
+            }
+            /* Original CSS For All Pages Default*/
+
+            /* FOOTER */
+            .mini-footer {
+            background:transparent;
+            text-align:center;
+            padding:16px 0;
+            }
+            .mini-footer p {
+            margin:0;
+            line-height:26px;
+            color:white;
+            }
+            .mini-footer p a {
+                color:#af009f;  
+            }
+            .mini-footer p a:hover {
+            color:#af009f;
+            text-decoration: underline;
+            }
+            /* FOOTER */
+        </style>
+        <!-- TITLE -->
+        <title>VANUSS - Error Page</title>
+        <!-- Favicon  -->
+        <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/navinnavi19/image/upload/v1553688123/VANUSS/favicon-violet.png"/>
+    </head>
+    <!-- Body -->
+    <body>
+        <!-- 404-Error Page -->
+        <div class="error-stack mb-5"><%= error.stack %></div>
+        <div class="container-fluid text-center">
+                <div class="error-number mb-4">404</div>
+                <div class="error-description mb-2">The page you are looking for might have been removed.</div>
+                <div class="error-goback-text">Would you like to go home?</div>
+                <div ><a class="btn btn-sm m-5" href="/">Let's go home</a></div>
+        </div>
+        <!-- 404-Error Page -->
+        <!-- Footer -->
+        <div class="mini-footer">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                    <p>2019
+                        <a href="/">VANUSS</a>.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
