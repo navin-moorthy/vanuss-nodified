@@ -1,0 +1,257 @@
+/* Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+.jumbotron {
+    background-image: url('images/images/Laptop.jpg');
+    height: 50vh;
+    width: 100%; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#jumbotronIcon {
+    height: 6rem;
+    width: 6rem;
+    color: #af009f;
+}
+
+#jumbotronBrandName {
+    font-size: 185%;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 1.5px #af009f;
+}   
+
+#jumbotronLead {
+    font-size: 80%;
+    font-weight: bold;
+}
+
+#jumbotronBtn {
+    font-size: 15px;
+}
+
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .jumbotron {
+        background-image: url('images/images/Laptop.jpg');
+        height: 70vh;
+        width: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        color: white;
+        text-align: center;;
+    }
+    
+    #jumbotronIcon {
+        height: 8rem;
+        width: 8rem;
+        color: #af009f;
+    }
+    
+    #jumbotronBrandName {
+        font-size: 250%;
+        font-weight: bold;
+        text-shadow: 2.5px 2.5px 2.5px #af009f;
+    }   
+
+    #jumbotronLead {
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    #jumbotronBtn {
+        font-size: 20px;
+    }
+
+    #latestPosts {
+        font-size: 2rem;
+    }
+ }
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* Original CSS For All Pages Default*/
+    body {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+    /* Original CSS For All Pages Default*/
+    .jumbotron {
+        background-image: url('images/images/Laptop.jpg');
+        height: 100vh;
+        width: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        color: white;
+        text-align: center;;
+    }
+    
+    #jumbotronIcon {
+        height: 14rem;
+        width: 14rem;
+        color: #af009f;
+    }
+    
+    #jumbotronBrandName {
+        font-size: 400%;
+        font-weight: bolder;
+        text-shadow: 5px 5px 5px #af009f;
+    }
+
+    #jumbotronLead {
+        font-size: 120%;
+        font-weight: bolder;
+    }
+
+    #jumbotronBtn {
+        font-size: 25px;
+    }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron {
+        background-image: url('images/images/Laptop.jpg');
+        height: 100vh;
+        width: 98%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        color: white;
+        text-align: center;;
+    }
+    
+    #jumbotronIcon {
+        height: 14rem;
+        width: 14rem;
+        color: #af009f;
+    }
+    
+    #jumbotronBrandName {
+        font-size: 400%;
+        font-weight: bolder;
+        text-shadow: 5px 5px 5px #af009f;
+    }
+
+    #jumbotronLead {
+        font-size: 150%;
+        font-weight: bolder;
+    }
+
+    #jumbotronBtn {
+        font-size: 25px;
+    }
+    #latestPosts {
+        font-size: 2.5rem;
+    }
+ }
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+ /* Original CSS */
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: black;
+}
+
+
+.fas {
+    color:#af009f;
+    font-size: 1.5rem;
+}
+
+#hamBurger {
+    border: 1px solid #af009f;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    padding-bottom: 4px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#brandName, #cardTitle, .navbar-toggler-icon{
+    color: #af009f;
+}
+
+.active, .btn{
+    background-color: #af009f;
+}
+
+#navItemHover:hover {
+    color: #af009f;
+}
+
+.btn, #navItemHover, .card-text, #latestPosts{
+    color: white;
+}
+
+.btn:hover{
+    color: black;
+}
+
+#navbarShadow {
+    box-shadow: 1px 1px 1px 1px #af009f;
+}
+
+.card {
+    background-color: transparent;
+    border: 1px solid #af009f;
+    text-align: center;
+    max-width: 20rem;
+}
+
+.card-footer {
+    border-top: 1px solid #af009f;
+}
+
+#cardImg {
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+a:hover{ 
+    text-decoration:none;
+}
+
+/* FOOTER */
+    .mini-footer {
+    background:transparent;
+    text-align:center;
+    padding:16px 0;
+    border-top: 1px solid #af009f;
+    }
+    .mini-footer p {
+    margin:0;
+    line-height:26px;
+    color:white;
+    }
+    .mini-footer p a {
+        color:#af009f;  
+    }
+    .mini-footer p a:hover {
+    color:#af009f;
+    text-decoration: underline;
+    }

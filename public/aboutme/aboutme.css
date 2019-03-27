@@ -1,0 +1,184 @@
+/* Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* ABOUT ME */
+    .container-fluid {
+        margin: 3.5rem auto ;
+        color: white;
+    }
+
+    .container-fluid .row .col-12 .img-profile {
+        max-width: 50rem;
+        max-height: 50rem;
+        width: 8rem;
+        height: 8rem;
+    } 
+
+    .blockquote p{
+        color: #af009f;
+        border-left: 10px solid #af009f;
+        padding-left: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .fab {
+        color: white;
+        letter-spacing: 1rem;
+    }
+
+    .fa-twitter {
+        color: #00aced;
+    }
+
+    .fa-linkedin {
+        color: #0077B5;
+    }
+
+    .fa-facebook {
+        color: #3C5A99;
+    }
+
+    .fa-github {
+        color: #fafafa;
+    }
+
+    .fa-twitter:hover {
+        color: #00aced;
+        text-shadow: 0 0 15px #00aced;
+        transition: all 0.5s ease;
+    }
+
+    .fa-linkedin:hover {
+        color: #0077B5;
+        text-shadow: 0 0 15px #0077B5;
+        transition: all 0.5s ease;
+    }
+
+    .fa-facebook:hover {
+        color: #3C5A99;
+        text-shadow: 0 0 15px #3C5A99;
+        transition: all 0.5s ease;
+    }
+
+    .fa-github:hover {
+        color: #fafafa;
+        text-shadow: 0 0 15px #fafafa;
+        transition: all 0.5s ease;
+    }
+
+/* ABOUT ME */
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Original CSS For All Pages Default*/
+    body {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+    /* Original CSS For All Pages Default*/
+
+    /* ABOUT ME */
+    .container-fluid .row .col-12 .img-profile {
+        max-width: 50rem;
+        max-height: 50rem;
+        width: 12rem;
+        height: 12rem;
+   } 
+
+   .blockquote p{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    }
+   /* ABOUT ME */
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* ABOUT ME */
+    .blockquote p{
+        padding-left: 5rem;
+        font-size: 2rem;
+    }
+    /* ABOUT ME */
+}
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* Original CSS For All Pages Default*/
+    body {
+        font-family: 'Karla', sans-serif;
+        background-color: black;
+    }
+
+    .fas {
+        color:#af009f;
+        font-size: 1.5rem;
+    }
+    
+    #hamBurger {
+        border: 1px solid #af009f;
+    }
+
+    .icon{
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+        padding-bottom: 4px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    #brandName{
+        color: #af009f;
+    }
+
+    .active{
+        background-color: #af009f;
+    }
+
+    #navItemHover:hover {
+        color: #af009f;
+    }
+
+    #navItemHover{
+        color: white;    
+    }
+
+    #navbarShadow {
+        box-shadow: 1px 1px 1px 1px #af009f;
+    }
+/* Original CSS For All Pages Default*/
+
+/* FOOTER */
+    .mini-footer {
+    background:transparent;
+    text-align:center;
+    padding:16px 0;
+    border-top: 1px solid #af009f;
+    }
+    .mini-footer p {
+    margin:0;
+    line-height:26px;
+    color:white;
+    }
+    .mini-footer p a {
+        color:#af009f;  
+    }
+    .mini-footer p a:hover {
+    color:#af009f;
+    text-decoration: underline;
+    }
+/* FOOTER */

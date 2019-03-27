@@ -1,0 +1,270 @@
+/* Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Timeline */
+
+    #changeLog{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 5px 5px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        color: #af009f;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    
+    .content h3 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    .content ul {
+        color: black;
+    }
+
+    .timeline {
+        position: relative;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: .5rem;
+        background-color: #af009f;
+        top: 0;
+        bottom: 0;
+        left: -10%;
+        margin-left: -3px;
+    }
+
+    .timelineContainer {
+        padding: 15px 0px;
+        position: relative;
+    }
+
+    .timelineContainer::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 262px;
+        background-color: white;
+        border: 4px solid #af009f;
+        top: 23px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .allRight::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 25px;
+        width: 0;
+        z-index: 1;
+        left: -10px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+/* Timeline */
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Timeline */
+    .content {
+        padding: 10px 10px;
+        font-size: 0.9rem;
+    }
+    .content h3 {
+        font-size: 1.3rem;
+    }
+    .timeline {
+        max-width: 1200px;
+    }
+
+    .timeline::after {
+        left: 50%;
+    }
+
+    .timelineContainer {
+        padding: 4px 23px;
+        width: 50%;
+    }
+
+    .timelineContainer::after {
+        right: -14px;
+        top: 15px;
+    }
+
+    .left {
+        left: 0;
+      }
+
+    .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 18px;
+        width: 0;
+        z-index: 1;
+        right: 13px;
+        border: medium solid white;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent white;
+    }
+    .right {
+        left: 50%;
+    }
+
+    .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 13px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .right::after {
+        left: -12px;
+        top: 20px;
+    }
+
+    .allRight::before {
+        display: none;
+    }
+    /* Timeline */
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Original CSS For All Pages Default*/
+    body {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+    /* Original CSS For All Pages Default*/
+    /* Timeline */
+    .content {
+        padding: 20px 30px;
+        font-size: 1rem;
+    }
+    .content h3 {
+        font-size: 1.5rem;
+    }
+    /* Timeline */
+   
+    
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Timeline */
+    #changeLog{
+        font-size: 2.5rem;
+    }
+    .content {
+        font-size: 1.2rem;
+    }
+    .content h3 {
+        font-size: 1.8rem;
+    }
+    .left::before {
+        right: 30px;
+    }
+    .right::before {
+        left: 30px;
+    }
+    .timelineContainer {
+        padding: 10px 40px;
+    }
+    /* Timeline */
+}
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Original CSS For All Pages Default*/
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: black;
+}
+
+.fas {
+    color:#af009f;
+    font-size: 1.5rem;
+}
+
+#hamBurger {
+    border: 1px solid #af009f;
+}
+
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    padding-bottom: 4px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#brandName{
+    color: #af009f;
+}
+
+.active{
+    background-color: #af009f;
+}
+
+#navItemHover:hover {
+    color: #af009f;
+}
+
+#navItemHover{
+    color: white;    
+}
+
+#navbarShadow {
+    box-shadow: 1px 1px 1px 1px #af009f;
+}
+/* Original CSS For All Pages Default*/
+
+/* FOOTER */
+.mini-footer {
+background:transparent;
+text-align:center;
+padding:16px 0;
+border-top: 1px solid #af009f;
+}
+.mini-footer p {
+margin:0;
+line-height:26px;
+color:white;
+}
+.mini-footer p a {
+    color:#af009f;  
+}
+.mini-footer p a:hover {
+color:#af009f;
+text-decoration: underline;
+}
+/* FOOTER */
